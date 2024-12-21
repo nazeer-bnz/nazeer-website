@@ -18,6 +18,7 @@ label {
 article p {
     font-size: 20px;
     padding: 20px;
+    margin-left: 10%;
 }
 
 p {
@@ -71,7 +72,7 @@ ul.topnav li.drop{
 }
 
 /*################## Mobile #####################*/
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1050px) {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
@@ -134,7 +135,7 @@ ul.topnav li.drop{
     
     div.leftSide-col,
     div.rightSide-col{
-        margin: 15px;
+        margin: 20px;
     }
     
     input[type="text"] {
@@ -179,7 +180,7 @@ div.box {
 
 div.slopIcon img{
     display: block;
-    margin-bottom: 50%;
+    margin-left: 30%;
     box-shadow: -2px -2px 5px 2px rgba(0, 0, 0,.15), 2px 2px 4px rgba(0,0,0,1);
     
 }
@@ -208,13 +209,16 @@ div.icon {
 }
 
 div.leftSide-col {
-    margin: 0;
-    text-align: center;
+    margin: 50px;
+    padding-bottom: 30px;
+    
     
 }
 
 div.rightSide-col{
-    margin-bottom: auto;
+    margin-left: 30%;
+    padding-bottom: 20px;
+    
     
 }
 
@@ -282,11 +286,11 @@ form h2 {
     content: "";
 }
 
-.col-6 {width: 50%}
+.col-6 {width: 100%}
 .col-4 {width: 33.33%}
 .col-12 {width: 100%}
 .col-7 {width: 100%}
-.col-5 {width: 41.66%}
+.col-5 {width: 100%}
 .col-3 {width: 25%}
 
 * {
