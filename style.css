@@ -71,7 +71,7 @@ ul.topnav li.drop{
 }
 
 /*################## Mobile #####################*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
@@ -208,12 +208,13 @@ div.icon {
 }
 
 div.leftSide-col {
-    margin: 10px;
+    margin: 0;
+    text-align: center;
     
 }
 
 div.rightSide-col{
-    margin-bottom: 50%;
+    margin-bottom: auto;
     
 }
 
